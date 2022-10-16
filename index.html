@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tony's Resume</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.13/vue.min.js" integrity="sha512-9PmLIATEd4w0OxdTHq61p12lQqa8OtDC6nXu0+S1Icb800oxoADle+gaPfmAXLa35KSvk/6bGeNRfi3nq0Hvvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <style>
+            html, body{
+                font-family: Ariel, Microsoft JhengHei;
+            }
+            h4{
+                font-size:18px;
+            }
+            a{
+                color: #369;
+                text-decoration: none;;
+            }
+            .detail{
+                font-size:12px;
+            }
+            .project{
+                position: relative;
+                display: inline-block;
+                width:240px;
+                border-radius: 8px;
+                margin:12px;
+                padding: 8px;
+                padding-top:150px;
+                overflow: hidden;
+                height:250px;
+                box-shadow: 4px 4px 20px rgba(0,0,0,.3);
+            }
+            .image{
+                position: absolute;
+                width: 100%;
+                height:150px;
+                left: 0;
+                top: 0;
+                background-size: cover;
+                background-position: center center;
+                
+            }
+        </style>
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Tony</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#sideProjects">Side Projects</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h2 class="mb-0">
+                        汪家慶
+                        <span class="text-primary">Tony</span>
+                    </h2>
+                    <div class="subheading mb-5">
+                        0937017950 ·
+                        <a href="mailto:itony215@gmail.com">itony215@gmail.com</a>
+                    </div>
+                    <p class="lead mb-5">哈囉，我叫Tony，目前任職於資策會，軟體工程師，對數據科學充滿激情與熱情，具備機器學習、深度學習相關開發經驗，配合數據分析技巧去開發、設計不同類型的訓練模型，和具備模型跟影像資料視覺化的前端經驗。</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/chia-ching-wang-39b7a3b2/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/itony215"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">軟體⼯程師</h3>
+                            <div class="subheading mb-3">資策會</div>
+                            <div class="mb-3">參與專案</div>
+                                <ul class="fa-ul mb-0">
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1i-52Ha3XKJsuw0imp775o6c_wm4jf_1T/view?usp=sharing"><span class="fa-li"><i class="fas fa-check"></i></span>
+                                            智慧醫療-乳房病變先期防治-標記⼯具平台規劃與開發</a>
+                                    </li>
+                                    <p>提供醫師針對傷⼝作標記判斷是否需回診，取得標記資料後進⾏深度學習訓練model 負責標記⼯具的平台規劃、開發、維護，優化上架標記⼯具的流程、issue bug排解、重構 mgtool架構設計重要功能提升效能</p>
+                                    <p>使⽤框架: vue, postgresql</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1SRw7kCyb-UBgyEAX4Kr-5-2WDgYLGX49/view?usp=sharing"><span class="fa-li"><i class="fas fa-check"></i></span>
+                                            智慧醫療-醫療影像驗證⼯具</a>
+                                    </li>
+                                    <p>協助CAD 分析流程及review 結果驗證相關程式設計與實作，將醫院review標記資料json格式 做統計及分析 
+                                        負責醫療影像驗證⼯具的平台規劃、開發、醫療影像資料管理、⾃動化流程匹配其報告資料⾄ 對應影像。建⽴⾃動化轉檔流程
+                                        </p>
+                                    <p>使⽤框架: vue, postgresql</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1fpWN9nogDZD_pRGVLT5ph0_CwqDG2s97/view?usp=sharing"><span class="fa-li"><i class="fas fa-check"></i></span>
+                                            環球購物中心數位新零售智慧化服務平台</a>
+                                    </li>
+                                    <p>將環球購物中心會員及交易資料，百萬筆資料以視覺化圖表呈現，利於產出營銷策略。</p>
+                                    <p>使⽤框架: vue, nodejs, postgresql</p>
+                                    <li>
+                                        <a href=""><span class="fa-li"><i class="fas fa-check"></i></span>
+                                            智慧醫療-醫院pacs系統介接</a>
+                                    </li>
+                                    <p>PACS資料庫架設、和醫院對接取得⼤量資料、管理資料以及影像資料輸出，協助同仁深度學 習模組的訓練資料準備。</p>
+                                    <p>使⽤技術: Java, MySQL</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1PgTzGFy1P4sZ_OhQNGiIIqlyQtiDpQ1u/view?usp=sharing"><span class="fa-li"><i class="fas fa-check"></i></span>
+                                            ⼈聯網關鍵開發⼯具系統先期研發計畫-⼈聯網IOH平台開發</a>
+                                    </li>
+                                    <p>提供穿戴式裝置連結並顯⽰相關數據及視覺化</p>
+                                    <p>使⽤技術: Javascript, mongodb</p>
+                                    <li>
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        遠傳企業健康⽣活網計畫平台開發
+                                    </li>
+                                    <p>協助開發介接相關數據</p>
+                                    <p>使⽤技術: Javascript</p>
+                                    <li>
+                                        <span class="fa-li"><i class="fas fa-check"></i></span>
+                                        ⻑照中⼼計畫-開發CPS(Cyber Physical System)平台
+                                    </li>
+                                    <p>負責介接穿戴式裝置資訊</p>
+                                    <p>使⽤技術: Javascript, reddis, mongodb, docker</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1F2YtJ1e8MmjaoQAaAic90HUxU_FPPbbJ/view?usp=sharing"><span class="fa-li"><i class="fas fa-check"></i></span>
+                                            專利(可預測系統效能之感應器評估⽅法)</a>
+                                    </li>
+                                    <p>預測欲導⼊的感測器品質評估，以及預測此感測器加⼊對整體系統的效能影響。</p>
+                                </ul>
+                                <div class="mb-3">深度學習相關專案</div>
+                                <ul class="fa-ul mb-0">
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1lJKBkK8YM1difJiYSjtHZ45-33GRrepZ/view?usp=sharing"><span class="fa-li"><i class="fas fa-star"></i></span>
+                                            台⼤糖尿病⾜傷⼝分類Detection模型訓練</a>
+                                    </li>
+                                    <p>提供醫師針對傷⼝作標記判斷是否需回診，取得標記資料後進⾏深度學習訓練model 負責標記⼯具的平台規劃、開發、維護，優化上架標記⼯具的流程、issue bug排解、重構 mgtool架構設計重要功能提升效能</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1X5Jml7lgr3KbBVXXgA6N7LHi1tRL9z5t/view?usp=sharing"><span class="fa-li"><i class="fas fa-star"></i></span>
+                                            北醫胸腔 X 光影像判別⼼臟主動脈⼸⾎管鈣化程度模型</a>
+                                    </li>
+                                    <p>透過AI判讀影像辨識及預測系統-以胸腔 X 光影像判別心臟主動脈弓血管鈣化程度。在輸入Dicom醫療檔案後，只在幾秒內就可給出結果，最終AI自動分級預測，與醫師分級判讀結果達到九成以上準確度。<a href="https://drive.google.com/file/d/1B9-7aWeU35YF5yWdGoaS2EsUpXPLkMLH/view?usp=sharing">
+                                        Demo影片</a></p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1-d8tsY4jGW18IYWFaFFyvO6d0nU6sv14/view?usp=sharing"><span class="fa-li"><i class="fas fa-star"></i></span>
+                                            北醫心臟腫大辨識</a>
+                                    </li>
+                                    <p>透過心臟影像的資料來測量出心胸比、形狀和一些相關資訊(如:胸主動脈弓鈣化量、年齡、性別、體脂肪、慢性病等資料)來進行模型訓練及預測。應用MaskRCNN演算法，達到快速準確判斷心臟及胸腔比例。</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1q4LxKq3-zOrXHwK2xOGqoA4_pmDFlHR9/view?usp=sharing"><span class="fa-li"><i class="fas fa-star"></i></span>
+                                            膚況辨識</a>
+                                    </li>
+                                    <p>整體膚況、用色塊區分局部問題，將資深指導老師經驗，複製擴散至各分店。快速推薦合適課程與產品，持續改善肌膚。</p>
+                                    <li>
+                                        <a href="https://drive.google.com/file/d/1ApFHacMpN-X7TzJcJ353U4XyHCPm15dB/view?usp=sharing"><span class="fa-li"><i class="fas fa-star"></i></span>
+                                            人臉辨識 - 應用於點餐</a>
+                                    </li>
+                                    <p>應用人臉辨識，給予點餐客人一個ID，點餐機、結帳機、取餐機， 都可以用人臉ID當作辨識依據。完成無人前台的新服務模式。 </p>
+                                </ul>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2016 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">工業工程師</h3>
+                            <div class="subheading mb-3">南茂集團</div>
+                            <p>負責工程分析方法及設計有效率的流程，將人力，資源及時間進行優化設計，產出量化指標，讓這些輸入在工廠得到最有效率的運行及利用。
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2012 - December 2012</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">工業工程師(實習)</h3>
+                            <div class="subheading mb-3">友達光電</div>
+                            <p>協助改善廠內換線損失報告，達成階段性改善目標，縮減換線時間15%。</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2010 - November 2010</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">國立交通⼤學</h3>
+                            <div class="subheading mb-3">資訊⼯程研究所 碩⼠</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2013 - September 2015</span></div>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                        <li>
+                            程式語⾔: Javascript/python
+                        </li>
+                        <li>
+                            Web開發: Node.js/Redis 
+                        </li>
+                        <li>
+                            Web框架: Express/SocketIO 
+                        </li>
+                        <li>
+                            前端框架: Vue
+                        </li>
+                        <li>
+                            開發⼯具: VS Code
+                        </li>
+                        <li>                            
+                            Deep Learning相關: Keras/Tensorflow/Pytorch 
+                        </li>
+                        <li>                            
+                            資料庫相關: Mongodb/MySQL/PgSQL 
+                        </li>
+                        <li>                            
+                            版本管理、⾃動⼯具: Git 
+                        </li>
+                        <li>                            
+                            單元/整合測試: Mocha/Jest 
+                        </li>
+                        <li>                            
+                            其他: Docker/Data Mining/Linear regression
+                        </li>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-vuejs"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-gulp"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-git"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Workflow</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Agile Development & Scrum
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- sideProjects-->
+            <section class="resume-section" id="sideProjects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Side Projects</h2>
+                    <div id="app">
+                        <div v-for="project in projects" class="project">
+                            <a :href="project.url">
+                            <div class="image" :style="imgStyle(project.img)"></div>  
+                            
+                                <h4>{{project.title}}</h4>
+                            </a>
+                            <span class="detail">{{project.detail}}</span>
+                        </div>
+                    </div>
+                <div class="subheading mb-3">技術文章&演講</div>
+                <ul class="fa-ul mb-0">
+                    <li>
+                        <a href="https://drive.google.com/file/d/1vvKuPGTdPBh01LxJfHEU0_w-rYd1KlpO/view?usp=sharing"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            mgtool開發專案介紹- vuejs</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1w1VgSiBOWSDcb4ijySyYwo2gUTzIHXHp/view?usp=sharing"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            densenet- AI影像辨識應⽤</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1IVFia7GuB8FW7joNl8wSLUX0x7YQ-roB/view?usp=sharing"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            影像辨識及預測系統-以胸腔 X 光影像判別⼼臟主動脈⼸⾎管鈣化程度之研究</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/presentation/d/175FuZkDq19t0k8admqUjabuJ_5msux8l/edit?usp=sharing&ouid=107758424684290001012&rtpof=true&sd=true"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            深度學習框架⽐較</a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/presentation/d/1uGa7LvUYyVvK7ygKlWmHTDq_kv6uS1_A/edit?usp=sharing&ouid=107758424684290001012&rtpof=true&sd=true"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            Tensorflow介紹</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1xDqugM21DF2cAPuOzDnphPxOAC1h-wFi/view?usp=sharing"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            ⼈⼯智慧、機器學習 到 ⾏銷推薦</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1JPWzmr65gkhjqb-QeLpUkwVOIbdeM2Ty/view?usp=sharing"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            ⼈聯網 Internet Of People</a>
+                    </li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1YBonM9DhWxzw3cJQkdIhDsgzqlPM8uEF/view?usp=sharing"><span class="fa-li"><i class="fas fa-file"></i></span>
+                            AWS流量問題排查改善</a>
+                    </li>
+                </ul>
+            </div>   
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Awards & Certifications</h2>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <a href="https://www.rdworldonline.com/rd-100-2022-winner/mammography-quality-evaluation-mqe/">
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2022 R&D 100 Award - Mammography Quality Evaluation</a>
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
+                            2019 IDEAS SHOW x AI 商品影像AI辨識競賽---企業獎 
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+            new Vue({
+                el: '#app',
+                data: {
+                    projects:[],
+                },
+                methods:{
+                    imgStyle(img){
+                        return {
+                            backgroundImage: `url(${img})`,
+                        };
+                    }
+                },
+                mounted(){
+                    fetch("./data.json")
+                    .then(res=>res.json())
+                    .then(projects=> this.projects=projects)
+                }
+            })
+        </script>
+    </body>
+</html>
