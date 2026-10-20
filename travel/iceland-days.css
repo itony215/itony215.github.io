@@ -1,0 +1,17 @@
+/* 10/19–20 Iceland diary and shopping */
+.page-head .eyebrow{color:var(--aurora-dark)}
+.day-shortcuts{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+.day-shortcuts>a{padding:8px 13px;border:1px solid var(--line);border-radius:10px;text-decoration:none;background:white;color:var(--ink)}
+.day-shortcuts>a:hover{background:var(--ice)}
+.journal{font-size:1.08rem;max-width:900px;border-top:4px solid var(--aurora-dark)}
+.shopping-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.product{padding:0;overflow:hidden;min-width:0}
+.product-copy{padding:23px}.price{font-weight:800;color:var(--aurora-dark)}
+.reference-photo{margin:0;background:var(--mist);border-bottom:1px solid var(--line)}
+.reference-photo>a{display:block}.reference-photo img{width:100%;height:330px;object-fit:contain;background:#e7eeed}
+.reference-photo figcaption{font-size:.78rem;color:var(--muted);padding:8px 14px}
+.card p,.card li{overflow-wrap:anywhere}.card a{text-underline-offset:3px}
+.muted{color:var(--muted)}details summary{font-weight:800;cursor:pointer}
+section[id]{scroll-margin-top:175px}.footer .button.secondary{color:white;border-color:#829da7}
+@media(max-width:620px){.shopping-grid{grid-template-columns:1fr}.reference-photo img{height:360px}.product-copy{padding:19px}section[id]{scroll-margin-top:230px}}
+@media print{.reference-photo img{height:210px}.day-shortcuts{display:none}.shopping-grid{grid-template-columns:1fr 1fr}.card{break-inside:avoid}}
