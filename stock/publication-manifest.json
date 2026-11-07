@@ -1,0 +1,154 @@
+{
+  "url": "https://itony215.github.io/stock/",
+  "source_report": "budget_5m_20261106/backtest_report.html",
+  "source_report_sha256": "54341e2a2c448070fcdf9e7e0e196c748324bea66af62887065287c18b6726d6",
+  "embedded_backtest_data_unchanged": true,
+  "cost_scenario_percent": 0.6,
+  "files": [
+    {
+      "path": "csv/holds.csv",
+      "bytes": 15067,
+      "sha256": "658cb4a9bfc6622889767a3313e4439411e24cc1282b6d2781d9c2be473e826a"
+    },
+    {
+      "path": "csv/L01_逐筆訊號.csv",
+      "bytes": 16903499,
+      "sha256": "1a4b5cd0df124bb695dacf5855315eafbf3cf83b2384fd6dcb115963c59724fd"
+    },
+    {
+      "path": "csv/L02_逐筆訊號.csv",
+      "bytes": 25267978,
+      "sha256": "e7fd273f3d550506e3f4035b8a7ab0c11fcba387fdff525cad4e3bc8452cbc06"
+    },
+    {
+      "path": "csv/L50_逐筆訊號.csv",
+      "bytes": 35041873,
+      "sha256": "2cf8eb7c1b44e597211a0660bd2fc4a3ea274cb78b342eda9b361e073b0884c8"
+    },
+    {
+      "path": "csv/recent.csv",
+      "bytes": 88751,
+      "sha256": "b4813356423d6ea60a7c39f8113502e3186b5254d0aadb3e3a0a77b5368f5a04"
+    },
+    {
+      "path": "csv/S04_逐筆訊號.csv",
+      "bytes": 15923155,
+      "sha256": "7586be9d12780fc3bcab25da56c3b7e765c485bcc3646be801172d93f9a2694d"
+    },
+    {
+      "path": "csv/S06_逐筆訊號.csv",
+      "bytes": 9057957,
+      "sha256": "f394c86febd361e3e0bed96cf37cfe561189476f0dfd5dc340517d92d4546d24"
+    },
+    {
+      "path": "csv/S08_逐筆訊號.csv",
+      "bytes": 4837591,
+      "sha256": "546161d66e33a652a78c8eacb6f38c94c60cf21aa039167e00ea73b273f1cb45"
+    },
+    {
+      "path": "csv/S09_逐筆訊號.csv",
+      "bytes": 18087419,
+      "sha256": "c66b8e01d8217ccb2063d6b68e8ddc0dc2174a591b6307854ecc60f5a11cd5db"
+    },
+    {
+      "path": "csv/S10_逐筆訊號.csv",
+      "bytes": 2389470,
+      "sha256": "13447591ddae176463a5b52504aef7e17696c46e9ef710f9e0fe1bb64abeb1fc"
+    },
+    {
+      "path": "csv/S11_逐筆訊號.csv",
+      "bytes": 1056727,
+      "sha256": "b7589315bce5e0ca0385bd28b58bde00d017487929fb76d0e5b98d925e5dea9a"
+    },
+    {
+      "path": "csv/S20_逐筆訊號.csv",
+      "bytes": 7575783,
+      "sha256": "a978d2eecc83b98d559e5e898cc594b020c6ccb5426bef5292e4a5b0610be548"
+    },
+    {
+      "path": "csv/S88_逐筆訊號.csv",
+      "bytes": 6589139,
+      "sha256": "44628d4dddb27fc097430b2fbe5c79dc98fc6ab433f4ac83c840dd64cbc84823"
+    },
+    {
+      "path": "csv/summary.csv",
+      "bytes": 3675,
+      "sha256": "3ca74e4b267285880b86262b15f5c212896f7e24861a202b3908414d4536776f"
+    },
+    {
+      "path": "csv/yearly.csv",
+      "bytes": 32590,
+      "sha256": "c4fea966291c5fbadcb9870c83f226afaddac9ba272abad633698c4519fdc6be"
+    },
+    {
+      "path": "csv/容量不足診斷.csv",
+      "bytes": 274962,
+      "sha256": "8cea7b61d1f75d740953f0720baf3ac4783bc33932c37cde30451f5b8355e39e"
+    },
+    {
+      "path": "csv/容量敏感度.csv",
+      "bytes": 936,
+      "sha256": "c3c739afb013c95ced793d5c44c76cc23a1fedf3bfe03458c1db7155df678c8d"
+    },
+    {
+      "path": "csv/超額不下單訊號.csv",
+      "bytes": 272046,
+      "sha256": "2fda506795be252e021747ff651373515c38641714717c4b711f7a72e70aaccd"
+    },
+    {
+      "path": "index.html",
+      "bytes": 36414986,
+      "sha256": "32a12fa860439d691719ec0c18250b45dceedefb82a9f63296a331ccb5616fc6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 541,
+      "sha256": "a49b97954b4dc48698612fce11926143e3101ad4b7323162a705cd878137ffa4"
+    },
+    {
+      "path": "strategy-health/health.csv",
+      "bytes": 71183,
+      "sha256": "cc92fa85f85b3d7c052984f6a8801e24f6cd00867da5bb7b2c432c4b129cab4c"
+    },
+    {
+      "path": "strategy-health/index.html",
+      "bytes": 1337300,
+      "sha256": "28bef43c6233f8f3954f533e5c471ee9767262150d3db2e21b4c2c08d9aed635"
+    },
+    {
+      "path": "strategy-health/operational_robustness.csv",
+      "bytes": 46839,
+      "sha256": "bfdcd9090650cd0e0b17f7fbf756e3ebbcf1de641ab3674104197f431e99283d"
+    },
+    {
+      "path": "strategy-health/optimization_selection_freeze.json",
+      "bytes": 3230,
+      "sha256": "f07d6eaf49f826e910c522a15206811300b544032358c7ec8089755df23f6414"
+    },
+    {
+      "path": "strategy-health/optimization_versions.csv",
+      "bytes": 10355,
+      "sha256": "43416b22ab6cdca0c5d7d66aab0b265850e68110352e8a28b25b16b17541fb68"
+    },
+    {
+      "path": "strategy-health/research_policy.json",
+      "bytes": 2354,
+      "sha256": "20e5416c22c3558ba1bf940cafa32b5ac7505d3c2c2192c81391216dd63256d8"
+    },
+    {
+      "path": "strategy-health/worst_trades.csv",
+      "bytes": 113453,
+      "sha256": "1342a406e0c2898ad5c14062507883919f937aea6b2b1131f232d6f6670adbc1"
+    },
+    {
+      "path": "strategy-health/策略有效性與優化評估.md",
+      "bytes": 9930,
+      "sha256": "e65171ec7aaa9636ae87dbd3a21b32dffd41bc8f8f6421b353fb0acf0005375c"
+    },
+    {
+      "path": "每檔500萬元回測.xlsx",
+      "bytes": 67386359,
+      "sha256": "62ba6a31e0d9fd60706fdbb7704ff1c7a7136e72cb0b104116afaa6f413f97c2"
+    }
+  ]
+}

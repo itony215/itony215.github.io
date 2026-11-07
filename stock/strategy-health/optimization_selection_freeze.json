@@ -1,0 +1,118 @@
+{
+  "policy_sha256": "20e5416c22c3558ba1bf940cafa32b5ac7505d3c2c2192c81391216dd63256d8",
+  "disclosure": "全部歷史結果已在前輪看過。本輪時間切分是事後按時間驗證，不是新的未見樣本；新改版需凍結後前瞻追蹤。",
+  "conditional_versions": [
+    {
+      "id": "L01",
+      "filter": null,
+      "score": null
+    },
+    {
+      "id": "L02",
+      "filter": null,
+      "score": null
+    },
+    {
+      "id": "S04",
+      "filter": "三大買賣超與交易同向",
+      "score": 0.19698665612057137
+    },
+    {
+      "id": "S10",
+      "filter": "量比20>=1.5",
+      "score": 0.4038558004579728
+    },
+    {
+      "id": "S11",
+      "filter": "量比20>=1.5",
+      "score": 0.34450452575164475
+    },
+    {
+      "id": "S06",
+      "filter": null,
+      "score": null
+    },
+    {
+      "id": "S08",
+      "filter": "主力今日%同向至少0.1",
+      "score": 0.42768597383025203
+    },
+    {
+      "id": "S88",
+      "filter": null,
+      "score": null
+    },
+    {
+      "id": "S09",
+      "filter": "主力今日%同向至少0.1",
+      "score": 0.2043611820890981
+    },
+    {
+      "id": "S20",
+      "filter": null,
+      "score": null
+    },
+    {
+      "id": "L50",
+      "filter": null,
+      "score": null
+    }
+  ],
+  "holding_versions": [
+    {
+      "id": "L01",
+      "hold": null,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "L02",
+      "hold": null,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S04",
+      "hold": 1,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S10",
+      "hold": 1,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S11",
+      "hold": 2,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S06",
+      "hold": null,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S08",
+      "hold": 1,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S88",
+      "hold": 1,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S09",
+      "hold": null,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "S20",
+      "hold": null,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    },
+    {
+      "id": "L50",
+      "hold": 5,
+      "selection_rule": "兩期較差的每持有日平均淨報酬最大，且兩期優於同池市場中位數"
+    }
+  ]
+}

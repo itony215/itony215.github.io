@@ -1,0 +1,21 @@
+{
+  "scope": "有個股期貨的標的股票，報酬及價格仍全部使用現貨pickle；不改用期貨價格",
+  "primary_universe": "2026-11-06期交所目前標的名單與既有股票主檔交集；非歷史時點股票池",
+  "sensitivity_universe": "原247檔固定清單，供與舊報告一致比較",
+  "dataset_end": "2026-11-04",
+  "cost_scenarios_pct": [0, 0.1, 0.3, 0.6, 1.0],
+  "cost_meaning": "現貨名目本金的往返成本敏感度，並非使用者真實期貨交易成本",
+  "training": ["2016-11-07", "2022-12-31"],
+  "selection": ["2023-01-01", "2024-12-31"],
+  "diagnostic_after_selection": ["2025-01-01", "2026-11-04"],
+  "data_use_disclosure": "全部歷史結果已在前輪看過。本輪時間切分是事後按時間驗證，不是新的未見樣本；新改版需凍結後前瞻追蹤。",
+  "optimization_primary_hold": 1,
+  "optimization_minimum_training": {"trades": 100, "signal_dates": 50},
+  "optimization_minimum_selection": {"trades": 50, "signal_dates": 25},
+  "optimization_requirements": "訓練及篩選期每筆平均報酬扣0.3%後均正；兩期相對原版的平均報酬均至少改善0.05個百分點；不能只靠最新2026挑條件。",
+  "optimization_selection": "最多每策略一個D1條件版本，按min(訓練平均淨報酬,篩選平均淨報酬)排序，平手選條件較少者；無通過者不強行產出。",
+  "holding_diagnostic": "另比較1至5日原訊號，不與全部條件作交叉暴力搜尋；只用訓練與篩選期挑一個持有期，按每持有日平均淨報酬較差期最大者選擇，並檢查市場基準差異。",
+  "bootstrap": {"seed": 20261106, "replicates": 3000, "market_day_block": 10, "confidence": 0.95, "multiple_testing_adjustment": false},
+  "filters": ["原版", "成交量>=2000", "成交量>=5000", "量比20>=1.5", "量比20>=2", "主力買賣超與交易同向", "三大買賣超與交易同向", "主力今日%同向至少0.1", "價格在MA20交易同向側", "價格在MA60交易同向側", "空方RSI>=70或多方RSI<=40", "收盤>=30且成交量>=2000", "成交量>=2000且主力同向", "成交量>=2000且三大同向", "成交量>=2000且主力同向且MA20同向"],
+  "execution": "只評估訊號是否值得保留；未確認期貨逐筆成交、價差、保證金、帳戶費率或資金上限，不稱為已可自動實盤"
+}
